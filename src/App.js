@@ -3,6 +3,7 @@ import logo from './logo.svg';
 import './App.css';
 import Eightball from './Eightball';
 
+//TODO: add docstring
 const answers = [
   { msg: "It is certain.", color: "green" },
   { msg: "It is decidedly so.", color: "green" },
@@ -26,12 +27,14 @@ const answers = [
   { msg: "Very doubtful.", color: "red" },
 ];
 
+// Renders Eightball
 function App() {
   return (
     <div>
       <Eightball answers={answers} />
     </div>
   );
+  //TODO: set default value to answers
 }
 
 export default App;
